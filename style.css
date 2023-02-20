@@ -1,0 +1,160 @@
+html {
+    font-size: 15px;
+    font-family: Inter, sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    .navbar {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 10px;
+    }
+
+    .nav {
+        list-style-type: none;
+        display: inline-flex;
+        float: right;
+        justify-content: space-around;
+        width: 40%;
+        cursor: pointer;
+    }
+
+    .nav > li:hover {
+        color: hsl(35, 77%, 62%);
+    }
+
+/* Main section of webpage */
+    .heading {
+        width: 81%;
+        padding-top: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "container new";
+        margin: 0 auto;
+        column-gap: 5%;
+        border: 1px solid #111;
+        height: 80%;
+    }
+
+    .container {
+        width: 141%;
+    }
+
+    .container img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .container-heading {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 100%;
+        column-gap: 5em;
+    }
+
+    .container-heading > h1 {
+        font-weight: 800;
+        font-size: 3.5rem;
+        margin: 5% 0;
+        padding: 3%;
+        line-height: 1;
+        border: 1px solid #111;
+    }
+
+    .container-heading .info {
+        font-size: 1.25rem;
+        margin: 0 3%;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 5%;
+        
+    }
+
+    .container-heading button {
+        bottom: 0;
+        padding: 2% 5%;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin-top: 5%;
+        background-color: hsl(35, 77%, 62%);
+        border: 1px solid hsl(35, 77%, 62%);
+        color: hsl(36, 100%, 99%);
+        letter-spacing: .2em;
+    }
+
+    .container-heading button:hover {
+        color: hsl(36, 100%, 99%);
+        background-color: hsl(240, 100%, 5%);
+    }
+
+/* New section next to main section */
+    .new {
+        width: 60%;
+        display: block;
+        justify-self: end;
+        margin-right: 5%;
+        background-color: hsl(240, 100%, 5%);
+        color: hsl(36, 100%, 99%);
+    }
+
+    .new h1 {
+        padding-left: 7%;
+        color: hsl(35, 77%, 62%);
+        font-weight: 800;
+        font-size: 2.75rem;
+    }
+
+    .topic-1 {
+        margin-left: 7%;
+        width: 83%;
+    }
+
+    .topic-1 > p {
+        font-size: 1.25rem;
+    }
+
+    .topic-1 > h2 {
+        font-size: 1.65rem;
+    }
+
+    .topic-1 hr {
+        width: 100%;
+    }
+
+    .topic-2 {
+        margin-left: 7%;
+        width: 83%;
+    }
+
+    .topic-2 > p {
+        font-size: 1.25rem;
+    }
+
+    .topic-2 > h2 {
+        font-size: 1.65rem;
+    }
+
+    .topic-2 hr {
+        width: 100%;
+    }
+
+    .topic-3 {
+        margin-left: 5%;
+        width: 83%;
+    }
+
+    .topic-3 > p {
+        font-size: 1.25rem;
+    }
+
+    .topic-3 > h2 {
+        font-size: 1.65rem;
+    }
+
+    .title:hover {
+        cursor: pointer;
+        color: hsl(35, 77%, 62%);
+    }
+}
