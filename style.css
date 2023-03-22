@@ -108,19 +108,24 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 2.5em;
 }
 
-#first {
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+#first > .img {
     background-image: url(./assets/images/image-retro-pcs.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-#second {
+#second > .img {
     background-image: url(./assets/images/image-top-laptops.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-#third {
+#third > .img {
     background-image: url(./assets/images/image-gaming-growth.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -227,6 +232,7 @@ p, h1, h2, h3, h4, h5, h6 {
     .info {
         display: block;
         color: var(--neutral-gray-blue);
+        width: 100%;
     }
     
     .btn-read-more {
@@ -319,7 +325,7 @@ p, h1, h2, h3, h4, h5, h6 {
     }
 
     .top-3 {
-        width: 60%;
+        width: 80%;
         margin: 1em auto;
     }
     
